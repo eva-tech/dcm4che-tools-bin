@@ -1,22 +1,5 @@
 dcm4che DICOM Toolkit & Library
 =========================
-Sources: https://github.com/dcm4che/dcm4che  
-Binaries: https://sourceforge.net/projects/dcm4che/files/dcm4che3  
-Issue Tracker: https://github.com/dcm4che/dcm4che/issues  
-Build Status: [![Build Status](https://travis-ci.org/dcm4che/dcm4che.svg?branch=master)](https://travis-ci.org/dcm4che/dcm4che)
-
-This is a complete rewrite of [dcm4che-2.x](http://www.dcm4che.org/confluence/display/d2/).
-
-One main focus was to minimize the memory footprint of the DICOM data sets.
-It already provides modules to store/fetch configuration data to/from LDAP,
-compliant to the DICOM Application Configuration Management Profile,
-specified in [DICOM PS 3.15](http://dicom.nema.org/medical/dicom/current/output/html/part15.html#chapter_H), Annex H.
-
-Build
------
-After installation of [Maven 3](http://maven.apache.org):
-
-    > mvn install
 
 Modules
 -------
